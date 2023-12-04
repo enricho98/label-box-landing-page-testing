@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="position-relative">
-			<div class='sk-instagram-feed' data-embed-id='235630'></div>
+			<!-- <div class='sk-instagram-feed' data-embed-id='235630'></div> -->
 			<div class="blur w-100 bg-white"></div>
 		</div>
 	</section>

@@ -1,6 +1,6 @@
 <template>
 	<HeaderHome />
-	<About />
+	
 	<Areas />
 	<!-- <Laws /> -->
 	<Blog />

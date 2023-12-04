@@ -1,22 +1,16 @@
 <template>
-	<header class="container d-flex align-items-center flex-column flex-md-row py-5">
-		<div class="d-flex flex-column justify-content-center align-items-start col col-md-6">
-			<h1 class="fw-bold text-custom-blue">Aqui seu caso está em boas mãos!</h1>
+	<header class="container d-flex align-items-center flex-column flex-md-row py-5 ">
+		<div class="d-flex flex-column justify-content-center align-items-start col col-md-8 mt-4 mt-md-0">
+			<img class="logo" src="/capa.png" alt="Your Logo" />
+			<h1 class="fw-bold custom">Specialist F&B Packing</h1>
 			<p>
-				combinando conhecimento de 12 anos de experiência com comprometimento pela verdade e justiça, estamos
-				aqui para defender aqueles que nos procuram
+				Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik
 			</p>
-			<Button
-				size="lg"
-				href="https://wa.me/+5541999441503"
-			/>
+			<Button size="lg" href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging." />
 		</div>
-		<div class="col col-md-6 d-flex justify-content-end mt-3 mt-md-0">
-			<img
-				class="w-100 rounded-5"
-				src="/cleverson-bg-logo.png"
-				alt="Imagem de Cleverson Marques"
-			/>
+		<div class=" col col-md-4 d-flex justify-content-end mt-3 mt-md-0">
+			<img class="w-100 rounded-5" src="/header_image.png"
+				alt="Imagem de Cleverson Marques" />
 		</div>
 	</header>
 </template>
@@ -35,7 +29,16 @@ export default {
 h1 {
 	font-size: 3.438rem;
 }
+p{
+	font-size: 1.75rem;
+}
+
 img {
 	max-width: 400px;
 }
+
+.custom {
+	color: rgb(32, 66, 128) !important;
+}
+
 </style>

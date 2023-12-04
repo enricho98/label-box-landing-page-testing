@@ -19,7 +19,7 @@ export default {
 		},
 		text: {
 			type: String,
-			default: "Entrar em contato",
+			default: "Hubungi Kami",
 		},
 		variant: {
 			type: String,
@@ -38,14 +38,29 @@ export default {
 		class() {
 			let customClass = "";
 			if (this.variant === "gold-cta") {
-				customClass = `btn-gold-cta btn-${this.size} text-custom-gold border-custom-gold rounded-0`;
+				customClass = `btn-gold-cta btn-${this.size}  rounded-5`;
 			}
 
 			if (this.variant === "white-cta") {
-				customClass = `btn-white-cta btn-${this.size} text-custom-gold bg-white rounded-4`;
+				customClass = `btn-white-cta btn-${this.size} text-custom-blue bg-white rounded-4`;
 			}
 			return customClass;
 		},
 	},
 };
 </script>
+<style>
+
+.btn-gold-cta {
+	color: #ffffff !important;
+	border-color: #204280 !important;
+	background-color: #204280 !important;
+}
+.btn{
+	color: #ffffff !important;
+	border-color: #204280 !important;
+	background-color: #204280 !important;
+}
+</style>
+
+
