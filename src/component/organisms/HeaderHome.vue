@@ -6,9 +6,9 @@
 			<p>
 				Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik
 			</p>
-			<Button size="lg" href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging." />
+			<!-- <Button size="lg" href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging." /> -->
 		</div>
-		<div class=" col col-md-4 d-flex justify-content-end mt-3 mt-md-0">
+		<div class=" col col-md-4 d-flex justify-content-end mt-3 mt-md-0 bg-danger text-white">
 			<img class="w-100 rounded-5" src="/header_image.png"
 				alt="Imagem de Cleverson Marques" />
 		</div>

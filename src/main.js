@@ -2,7 +2,8 @@ import { createApp } from "vue";
 import App from "./App";
 import router from "./router";
 
-// import bootstrap custom styles
+// Import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
 import "@vueup/vue-quill/dist/vue-quill.snow.css";
 import "@vueup/vue-quill/dist/vue-quill.bubble.css";
 import "./assets/styles/main";
