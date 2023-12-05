@@ -13,21 +13,6 @@ const router = createRouter({
 			component: Home,
 		},
 		{
-			path: "/blog",
-			name: "ArticleList",
-			component: ArticleList,
-		},
-		{
-			path: "/article",
-			name: "Article",
-			component: Article,
-		},
-		{
-			path: "/admin",
-			name: "Admin",
-			component: Admin,
-		},
-		{
       path: '/:pathMatch(.*)*',
       name: "not-found",
       component: Home,

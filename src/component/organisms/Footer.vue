@@ -1,33 +1,33 @@
 <template>
 	<footer class="">
-		<div id="footer" class="container d-flex flex-column">
-			<div class="border-top-grey text-center py-2">
-				<div class="py-5 d-flex flex-column flex-md-row align-items-center">
-				<div class="col-12 col-md-7">
+	  <div id="footer" class="container d-flex flex-column">
+		<div class="border-top-grey text-left py-2">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-6">
+				<div class="footer-left">
+				  <img src="/path/to/logo.png" alt="Logo" class="footer-logo">
+				  <div>
 					<h1>Specialist F&B Packaging</h1>
-					<p>Your #1 Trusted Packaging Partner.
-</p>
+					<p>Your #1 Trusted Packaging Partner.</p>
+				  </div>
 				</div>
-				<div class="d-flex flex-column p-0 ps-md-5 mt-3 mt-md-0 col col-md-4">
-					<p class="text-white">
-
-					</p>
-					<div class="d-flex align-items-center justify-content-between">
-						<div>
-							<a href="https://wa.me/+5541999441503" class=""><i
-									class="fa-brands fa-square-whatsapp text-primary fs-1"></i></a>
-							<a href="https://www.instagram.com/cmarques_advogados_/" class=""><i
-									class="fa-brands fa-instagram text-primary fs-1 ms-3"></i></a>
-						</div>
-					</div>
+			  </div>
+			  <!-- WhatsApp and Instagram Icons -->
+			  <div class="col-md-6 position-relative">
+				<div class="text-end position-absolute bottom-0 end-0">
+				  <a href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging" class="social-icon"><i class="fa-brands fa-whatsapp text-primary fs-1 ms-3"></i></a>
+				  <a href="https://www.instagram.com/labelbox.id/?hl=en" class="social-icon"><i class="fa-brands fa-instagram text-primary fs-1 ms-3"></i></a>
 				</div>
+			  </div>
 			</div>
-			</div>
-			
-
+		  </div>
 		</div>
+	  </div>
 	</footer>
-</template>
+  </template>
+  
+  
 <style scoped>
 .border-top-grey {
 	border-top: 1px solid #ccc;

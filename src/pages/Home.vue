@@ -4,8 +4,10 @@
 	<Areas />
 	<Blog />
 	<Instagram />
-	<Laws />
+	<Card />
 	<Why />
+	<CardBig />
+	<How />
 
 </template>
 
@@ -13,20 +15,24 @@
 import HeaderHome from "Organism/HeaderHome.vue";
 import About from "Organism/About.vue";
 import Areas from "Organism/Areas.vue";
-import Laws from "Organism/Laws.vue"; // no more lawyers at the moment
+import Card from "Organism/Card.vue"; 
+import CardBig from "Organism/CardBig.vue";
 import Blog from "Organism/Blog.vue";
 import Why from "Organism/Why.vue";
 import Instagram from "Organism/Instagram.vue";
+import How from "../component/organisms/How.vue";
 
 export default {
 	components: {
-		HeaderHome,
-		About,
-		Areas,
-		Laws, // no more lawyers at the moment
-		Blog,
-		Instagram,
-		Why,
-	},
+    HeaderHome,
+    About,
+    Areas,
+    Card,
+    CardBig,
+    Blog,
+    Instagram,
+    Why,
+    How
+},
 };
 </script>
