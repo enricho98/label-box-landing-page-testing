@@ -5,6 +5,7 @@
 	<Blog />
 	<Instagram />
 	<Laws />
+	<Why />
 
 </template>
 
@@ -14,6 +15,7 @@ import About from "Organism/About.vue";
 import Areas from "Organism/Areas.vue";
 import Laws from "Organism/Laws.vue"; // no more lawyers at the moment
 import Blog from "Organism/Blog.vue";
+import Why from "Organism/Why.vue";
 import Instagram from "Organism/Instagram.vue";
 
 export default {
@@ -24,6 +26,7 @@ export default {
 		Laws, // no more lawyers at the moment
 		Blog,
 		Instagram,
+		Why,
 	},
 };
 </script>

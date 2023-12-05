@@ -1,48 +1,44 @@
 <template>
-	<section class="">
-		<div class="content-solution d-sm-block d-md-block d-lg-block mt-4 mb-4">
-			<div class="container">
-				<div class="card card-solution">
-					<div class="divider-right"></div>
-					<div class="card-body text-black">
-						<h1 class="solution-info">Tidak menemukan Model atau Size Box yang Anda inginkan?</h1>
-						<div class="info">Konsultasikan Box impian Anda sekarang!</div>
-					</div>
-					<div class="card-footer">
-						<a href="https://api.whatsapp.com/send?phone=6285935000130&amp;text=Halo MinBox! Saya mau tanya mengenai Custom Packaging dengan kriteria: (isi kriteria Box yang diinginkan)."
-							onclick="fbq('track', 'Lead');" class="btn btn-contact my-2 my-sm-0 px-4 pull-right">
-							Hubungi Kami </a>
-					</div>
-				</div>
+	<div class="container mt-4 mb-4">
+	  <div class="row justify-content-center align-items-center">
+		<div class="col-md-8">
+		  <!-- Vue component for the card with a vertical line on the left -->
+		  <div class="card custom-card">
+			<div class="vertical-line"></div>
+			<div class="card-body rounded-pill">
+			  <h5 class="card-title text-primary">Belum menemukan bentuk atau bahan packaging yang Anda inginkan?</h5>
+			  <h6>Konsultasikan Packaging impian Anda sekarang!</h6>
+			  <button type="button" class="btn btn-primary rounded-pill text-sm mb-4 mt-3">KONSULTASI DENGAN MINIBOX</button>
 			</div>
+		  </div>
 		</div>
-		<div class="content-solution-mobile d-block d-sm-none d-md-none">
-			<div class="container">
-				<div class="card card-solution-mobile text-center">
-					<div class="divider-bottom"></div>
-					<div class="card-body text-black">
-						<h1 class="solution-info-mobile">Tidak menemukan Model atau Size Box yang Anda inginkan?</h1>
-						<br>
-						<div class="info-mobile">Konsultasikan Box impian Anda sekarang!</div>
-					</div>
-					<div class="card-footer">
-						<a href="https://api.whatsapp.com/send?phone=6285935000130&amp;text=Halo MinBox! Saya mau tanya mengenai Custom Packaging dengan kriteria: (isi kriteria Box yang diinginkan)."
-							onclick="fbq('track', 'Lead');" class="btn btn-contact my-2 my-sm-0 px-4">
-							Hubungi Kami </a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</template>
-
-<style lang="scss" scoped>
-.card {
-	background-color: #f1f9ff;
-}
-
-.divider-right {
-	border-right: 100px solid #000;
-	height: 1000%;
-}
-</style>
+	  </div>
+	</div>
+  </template>
+  
+  <style scoped>
+  .vertical-line {
+	border-left: 8px solid #204280;
+	height: 100%; /* Adjust the height as needed */
+	float: left; /* Use float left instead of absolute positioning */
+	border-radius: 40px;
+  }
+  
+  .text-sm {
+	font-size: 0.775rem;
+  }
+  
+  .text-primary {
+	color: #204280 !important;
+  }
+  
+  .custom-card {
+	background-color: #eeeeee;
+	/* Adjust the background color as needed */
+	position: relative;
+	padding-left: 3%;
+	padding-top: 3%;
+	border-radius: 20px;
+  }
+  </style>
+  
