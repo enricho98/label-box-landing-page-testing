@@ -6,7 +6,7 @@
 			<div class="row">
 			  <div class="col-md-6">
 				<div class="footer-left">
-				  <img src="/path/to/logo.png" alt="Logo" class="footer-logo">
+				  <!-- <img src="/path/to/logo.png" alt="Logo" class="footer-logo"> -->
 				  <div>
 					<h1>Specialist F&B Packaging</h1>
 					<p>Your #1 Trusted Packaging Partner.</p>
