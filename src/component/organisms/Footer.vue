@@ -1,14 +1,14 @@
 <template>
-	<footer class="">
+	<footer class=" mb-4">
 	  <div id="footer" class="container d-flex flex-column">
 		<div class="border-top-grey text-left py-2">
-		  <div class="container">
+		  <div class="container mt-5">
 			<div class="row">
 			  <div class="col-md-6">
 				<div class="footer-left">
-				  <!-- <img src="/path/to/logo.png" alt="Logo" class="footer-logo"> -->
+				  <img src="logo.png" alt="Logo" class="footer-logo img-fluid">
 				  <div>
-					<h1>Specialist F&B Packaging</h1>
+					<h1 class="pt-2">Specialist F&B Packaging</h1>
 					<p>Your #1 Trusted Packaging Partner.</p>
 				  </div>
 				</div>
@@ -33,6 +33,10 @@
 	border-top: 1px solid #ccc;
 	/* Adjust the color code to your desired shade of grey */
 }
+.footer-logo {
+	max-width: 150px; /* Adjust the size as needed */
+  }
+  
 
 /* Add other styles as needed */
 </style>

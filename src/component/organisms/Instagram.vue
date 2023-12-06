@@ -22,11 +22,3 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.blur {
-	position: absolute;
-	z-index: 99999 !important;
-	bottom: 0;
-	height: 48px;
-}
-</style>

@@ -1,8 +1,6 @@
 <template>
 	<HeaderHome />
-	
 	<Areas />
-	<Blog />
 	<Instagram />
 	<Card />
 	<Why />
@@ -17,7 +15,6 @@ import About from "Organism/About.vue";
 import Areas from "Organism/Areas.vue";
 import Card from "Organism/Card.vue"; 
 import CardBig from "Organism/CardBig.vue";
-import Blog from "Organism/Blog.vue";
 import Why from "Organism/Why.vue";
 import Instagram from "Organism/Instagram.vue";
 import How from "../component/organisms/How.vue";
@@ -29,7 +26,6 @@ export default {
     Areas,
     Card,
     CardBig,
-    Blog,
     Instagram,
     Why,
     How
