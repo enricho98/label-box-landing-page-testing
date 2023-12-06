@@ -3,20 +3,29 @@
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-10">
 				<!-- Vue component for the card with a vertical line on the left -->
-				<div class="card custom-card">
-					<div class="vertical-line"></div>
+				<div class="card custom-card relative">
+					<div class="vertical-line absolute -translate-x-1"></div>
 					<div class="card-body rounded-pill text-center">
-						<button type="button" class="btn btn-primary rounded-0  text-sm mb-4 mt-3">PENAWARAN TERBATAS </button>
+						<button
+							type="button"
+							class="btn btn-primary rounded-0 text-sm mb-4 mt-3"
+						>
+							PENAWARAN TERBATAS
+						</button>
 						<h1>Pesan Sekarang GRATIS jasa Desain!</h1>
-						<button type="button" class="btn btn-success rounded-pill text-sm mb-4 mt-4">KLAIM FREE DESIGN </button>
-
+						<button
+							type="button"
+							class="btn btn-success rounded-pill text-sm mb-4 mt-4"
+						>
+							KLAIM FREE DESIGN
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
-  
+
 <style scoped>
 .vertical-line {
 	border-left: 7px solid #204280;
@@ -44,11 +53,9 @@
 	padding-top: 3%;
 	border-radius: 20px;
 }
-.btn-success{
+.btn-success {
 	background-color: #18c61c !important;
 	color: white !important;
 	border-color: #18c61c !important;
 }
 </style>
-
-  

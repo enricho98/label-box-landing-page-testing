@@ -1,3 +1,7 @@
 // Include Bootstrap SCSS files
-@import './variables/index.scss';
-@import 'bootstrap/scss/bootstrap.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables/index.scss";
+@import "bootstrap/scss/bootstrap.scss";
