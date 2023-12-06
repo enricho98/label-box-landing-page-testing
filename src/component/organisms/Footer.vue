@@ -16,8 +16,12 @@
 			  <!-- WhatsApp and Instagram Icons -->
 			  <div class="col-md-6 position-relative">
 				<div class="text-end position-absolute bottom-0 end-0">
-				  <a href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging" class="social-icon"><i class="fa-brands fa-whatsapp text-primary fs-1 ms-3"></i></a>
-				  <a href="https://www.instagram.com/labelbox.id/?hl=en" class="social-icon"><i class="fa-brands fa-instagram text-primary fs-1 ms-3"></i></a>
+					<a href="https://www.instagram.com/labelbox.id/?hl=en" class="">
+  <i class="fa-brands fa-instagram text-primary fs-1 ms-3 instagram-icon bigger-icon"></i>
+</a>
+
+				  <a href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging" class=""><i class="fa-brands fa-whatsapp text-primary fs-1 ms-3"></i></a>
+	
 				</div>
 			  </div>
 			</div>
@@ -36,7 +40,9 @@
 .footer-logo {
 	max-width: 150px; /* Adjust the size as needed */
   }
-  
+.instagram-icon{
+	font-size: 2.5rem !important;
+  }
 
 /* Add other styles as needed */
 </style>

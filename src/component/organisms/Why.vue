@@ -6,11 +6,14 @@
 			</div>
 
 			<div class="d-flex flex-column flex-md-row flex-wrap">
-				<img class="w-100 rounded-5 mb-4" src="/whyus_bg.png"
-				alt="Imagem de Cleverson Marques" />
+				<img class="w-100 rounded-5 mb-4" src="/whyus_bg.png" alt="Imagem de Cleverson Marques" />
 			</div>
 			<div class="mb-4 mt-2 text-center">
-				<button type="button" class="btn btn-primary rounded-pill text-center custome-us">Hubungi Kami </button>
+				<button @click="redirectToWhatsApp" type="button"
+					class="btn btn-primary rounded-pill text-center custome-us">
+					Hubungi Kami
+				</button>
+
 			</div>
 
 		</div>
@@ -22,19 +25,23 @@
 	background-color: #204280 !important;
 	color: white !important;
 }
-.custome-us{
+
+.custome-us {
 	font-size: 1rem;
-	background-color:  white !important;
+	background-color: white !important;
 	color: #204280 !important;
 }
-
 </style>
 <script>
-import CardArea from "../molecules/CardArea.vue";
-
 export default {
-	components: {
-		CardArea,
+	methods: {
+		redirectToWhatsApp() {
+			// Add your WhatsApp URL here
+			const whatsappUrl =
+				'https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging.';
+			// Open the URL in a new tab or window
+			window.open(whatsappUrl, '_blank');
+		},
 	},
 };
 </script>

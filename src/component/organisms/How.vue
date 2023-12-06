@@ -10,7 +10,7 @@
 				alt="Imagem de Cleverson Marques" />
 			</div>
 			<div class="mb-4 mt-2 text-center">
-				<button type="button" class="btn btn-primary rounded-pill text-center custome-kami">PESAN SEKARANG </button>
+				<button @click="redirectToWhatsApp"  type="button" class="btn btn-primary rounded-pill text-center custome-kami">PESAN SEKARANG </button>
 			</div>
 
 		</div>
@@ -30,11 +30,15 @@
 
 </style>
 <script>
-import CardArea from "../molecules/CardArea.vue";
-
 export default {
-	components: {
-		CardArea,
+	methods: {
+		redirectToWhatsApp() {
+			// Add your WhatsApp URL here
+			const whatsappUrl =
+				'https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging.';
+			// Open the URL in a new tab or window
+			window.open(whatsappUrl, '_blank');
+		},
 	},
 };
 </script>
