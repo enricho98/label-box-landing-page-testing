@@ -8,7 +8,7 @@
 							<div class="footer-left">
 								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
 								<div>
-									<h1 class="pt-2">Specialist F&B Packaging</h1>
+									<h4 class="pt-2">Specialist F&B Packaging</h4>
 									<p>Your #1 Trusted Packaging Partner.</p>
 								</div>
 							</div>
@@ -40,15 +40,15 @@
 }
 
 .footer-logo {
-	max-width: 150px;
+	max-width: 100px;
 	/* Adjust the size as needed */
 }
 
 .instagram-icon {
-	font-size: 2.5rem !important;
+	font-size: 2rem !important;
 }
 .whatsapp-icon {
-	font-size: 2.5rem !important;
+	font-size: 2rem !important;
 }
 
 /* Add other styles as needed */</style>

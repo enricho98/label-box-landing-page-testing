@@ -1,8 +1,9 @@
 <template>
 	<!-- remove margin when enabling lawyers section -->
 	<section class="container mt-5">
+    <h2 class="text-center">What’s new on labelbox</h2>
 		<div class="position-relative">
-			<div class='sk-instagram-feed' data-embed-id='235630'></div>
+			<div class='sk-instagram-feed' data-embed-id='239357'></div>
 			<div class="blur w-100 bg-white"></div>
 		</div>
 	</section>

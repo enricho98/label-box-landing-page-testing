@@ -1,12 +1,12 @@
 <template>
 	<header class="grid grid-cols-12 items-start justify-start">
 		<div class="h-full col-span-12 md:col-span-7 flex flex-col justify-start flex-container">
-			<img class="logo w-1/4 md:w-1/8 ml-3 mt-3" src="/logo.png" alt="Your Logo" />
+			<img class="logo w-1/4 md:w-1/6 ml-3 mt-3" src="/logo.png" alt="Your Logo" />
 
-			<div class="p-6 md:pr-3 md:max-w-[560px] lg:max-w-[770px] flex items-start">
+			<div class="p-6 md:pr-3 md:max-w-[560px] lg:max-w-[770px] flex items-start m-auto">
 				<div class="logo-text ml-4">
 					<h1 class="fw-bold custom text-2xl md:text-3xl">Specialist F&B Packing</h1>
-					<p class="text-sm md:text-base">
+					<p class="text-xs customp md:text-base">
 						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik
 					</p>
 					<Button class="ml-2" size="lg"
@@ -31,71 +31,68 @@ export default {
 		Button,
 	},
 };
-</script>
-<style lang="scss" scoped>
+</script><style lang="scss" scoped>
 .flex-container {
   background-color: #eeeeee; /* Add your desired background color */
 }
+.customp{
+	font-size: larger;
+}
 .logo {
-	max-width: 100% !important;
-	/* Make the logo responsive */
+  max-width: 80% !important;
+  /* Make the logo responsive */
 }
 
 @media (min-width: 768px) {
-	.logo {
-		max-width: 8%;
-		/* Adjust the width as needed for larger screens */
-	}
+  .logo {
+	max-width: 8%;
+	/* Adjust the width as needed for larger screens */
+  }
 }
 
 .logo-text {
-	margin-left: 20px;
-	/* Adjust the margin as needed for spacing between the logo and text */
-	position: relative;
-	top: 2rem;
-	/* Adjust the vertical position */
+  margin-left: 20px;
+  /* Adjust the margin as needed for spacing between the logo and text */
+  position: relative;
+  
+  /* Adjust the vertical position */
 }
 
 h1 {
-	margin-left: 1rem;
-	color: #1d4486;
-	font-size: 3rem;
-	line-height: 50px;
-	/* Fix the typo in 'size' to 'font-size' */
-	margin-top: 90px;
-}
+  margin-left: 1rem;
+  color: #1d4486;
+  font-size: 2rem; /* Adjust the font size */
+  line-height: 50px;
+  margin-top: auto; /* Set margin-top to auto to push it to the bottom */}
 
-/* Adjust the vertical position of the p */
+/* Adjust the font size of the p */
 p {
-	margin-left: 1rem;
-	position: relative;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	/* Adjust the vertical position */
-	font-size: 2rem;
-	/* Fix the typo in 'size' to 'font-size' */
-	top: 0.5rem;
-	/* Adjust the vertical position */
-	line-height: 40px;
+  margin-left: 1rem;
+  position: relative;
+  margin-top: auto; /* Set margin-top to auto to push it to the bottom */  margin-bottom: 1rem; /* Adjust the bottom margin */
+  font-size: 1rem; /* Adjust the font size */
+  top: 0.5rem;
+  /* Adjust the vertical position */
+  line-height: 40px;
 }
 
-/* Adjust the vertical position of the button */
+/* Adjust the font size of the button */
 Button {
-	margin-top: 4rem;
-	margin-left: 2rem;
-	/* Add margin for the button */
-	position: relative;
-	top: 1rem;
-	/* Adjust the vertical position */
+  margin-top: 2rem; /* Adjust the top margin */
+  margin-left: 1rem; /* Adjust the left margin */
+  position: relative;
+  top: 0.5rem; /* Adjust the vertical position */
+  font-size: 1rem; /* Adjust the font size */
 }
 
 @media (min-width: 768px) {
-	.logo-text {
-		margin-left: 0;
-		/* Reset margin for larger screens */
-		align-self: flex-start;
-		/* Align the text and button to the start of the flex container */
-		top: 0;
-		/* Reset the top position for larger screens */
-	}
-}</style>
+  .logo-text {
+	margin-left: 0;
+	/* Reset margin for larger screens */
+	align-self: flex-start;
+	/* Align the text and button to the start of the flex container */
+	top: 0;
+	/* Reset the top position for larger screens */
+  }
+}
+</style>

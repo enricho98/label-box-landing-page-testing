@@ -60,6 +60,7 @@ export default {
 	color: #ffffff !important;
 	border-color: #204280 !important;
 	background-color: #204280 !important;
+	font-size: 2rem;
 }
 </style>
 

@@ -6,7 +6,8 @@
 			</div>
 
 			<div class="d-flex flex-column flex-md-row flex-wrap">
-				<img class="w-100 rounded-5 mb-4" src="/whyus_bg.png" alt="Imagem de Cleverson Marques" />
+				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/whyus_bg.png" alt="Imagem de Cleverson Marques" />
+
 			</div>
 			<div class="mb-4 mt-2 text-center">
 				<button @click="redirectToWhatsApp" type="button"
