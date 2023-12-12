@@ -49,7 +49,7 @@
 		  },
 		  {
 			id: 3,
-			image: "kertas.png",
+			image: "Screenshot 2023-12-12 at 22.04.06.png",
 			title: "Paper",
 			text: "Min. Quantity 1.00pcs",
 		  },
