@@ -2,7 +2,7 @@
 	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
 		<div class="container">
 			<div class="mb-4">
-				<h5 class="text-center m-0">WHY US?</h5>
+				<h5 class="text-center whyUs m-0">WHY US?</h5>
 			</div>
 
 			<div class="d-flex flex-column flex-md-row flex-wrap">
@@ -22,6 +22,9 @@
 </template>
 
 <style>
+.whyUs {
+	color: white !important;
+}
 .bg-custom-blues-one {
 	background-color: #204280 !important;
 	color: white !important;

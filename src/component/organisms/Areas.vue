@@ -1,5 +1,5 @@
 <template>
-	<h5 class="text-center mt-4">Our Products</h5>
+	<h5 class="text-center mt-4 whtats">Our Products</h5>
 	<Carousel :items-to-show="getItemsToShow()" :wrap-around="true" class="mt-5">
 	  <Slide v-for="slide in slides" :key="slide.id">
 		<div class="mx-4 h-full flex flex-col">
