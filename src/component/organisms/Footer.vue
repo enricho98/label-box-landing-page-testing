@@ -8,7 +8,7 @@
 							<div class="footer-left">
 								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
 								<div>
-									<h4 class="pt-2">Specialist F&B Packaging</h4>
+									<h6 class="pt-2">Specialist F&B Packaging</h6>
 									<p>Your #1 Trusted Packaging Partner.</p>
 								</div>
 							</div>

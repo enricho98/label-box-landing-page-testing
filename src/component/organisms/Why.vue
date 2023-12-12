@@ -2,7 +2,7 @@
 	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
 		<div class="container">
 			<div class="mb-4">
-				<h2 class="text-center m-0">WHY US?</h2>
+				<h5 class="text-center m-0">WHY US?</h5>
 			</div>
 
 			<div class="d-flex flex-column flex-md-row flex-wrap">

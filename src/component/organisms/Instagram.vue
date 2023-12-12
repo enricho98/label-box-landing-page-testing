@@ -1,9 +1,9 @@
 <template>
 	<!-- remove margin when enabling lawyers section -->
 	<section class="container mt-5">
-    <h2 class="text-center">What’s new on labelbox</h2>
+    <h5 class="text-center">What’s new on labelbox</h5>
 		<div class="position-relative">
-			<div class='sk-instagram-feed' data-embed-id='239357'></div>
+			<!-- <div class='sk-instagram-feed' data-embed-id='239357'></div> -->
 			<div class="blur w-100 bg-white"></div>
 		</div>
 	</section>
@@ -23,3 +23,8 @@ export default {
 }
 </script>
 
+<style>
+.text-center{
+  color: #204280 !important;
+}
+</style>
