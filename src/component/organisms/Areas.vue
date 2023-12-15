@@ -2,7 +2,7 @@
 	<h5 class="text-center mt-4 whtats">Our Products</h5>
 	<Carousel :items-to-show="getItemsToShow()" :wrap-around="true" class="mt-5">
 	  <Slide v-for="slide in slides" :key="slide.id">
-		<div class="mx-4 h-full flex flex-col">
+		<div class=" h-full flex flex-col">
 				<img :src="slide.image" alt="Slide Image" class="flex-1 w-full h-auto z-10 md:w-60 lg:w-60" />
 				<div class="mx-1-mt-2 thisAreas rounded-b-xl pt-2 pb-2 text-base text-white font-bold">
 					<h3>{{ slide.title }}</h3>
@@ -18,8 +18,7 @@
 	  </template>
 	</Carousel>
   </template>
-  
-  <script>
+<script>
   import { defineComponent } from "vue";
   import { Carousel, Navigation, Slide } from "vue3-carousel";
   
@@ -64,7 +63,7 @@
 	},
 	methods: {
 	  getItemsToShow() {
-		return window.innerWidth <= 767 ? 1 : 4;
+		return window.innerWidth <= 767 ? 1 : 3;
 	  },
 	},
   });

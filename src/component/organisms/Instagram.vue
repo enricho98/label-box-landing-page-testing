@@ -3,7 +3,7 @@
 	<section class="container mt-5">
     <h5 class="text-center whtats">What’s new on labelbox</h5>
 		<div class="position-relative">
-			<div class='sk-instagram-feed' data-embed-id='239357'></div>
+			<!-- <div class='sk-instagram-feed' data-embed-id='239357'></div> -->
 			<div class="blur w-100 bg-white"></div>
 		</div>
 	</section>
