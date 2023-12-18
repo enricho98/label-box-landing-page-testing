@@ -1,5 +1,6 @@
 <template>
-	<button v-if="showButton" @click="redirectToWhatsApp" class="whatsapp-button">Open WhatsApp</button>
+	<button v-if="showButton" @click="redirectToWhatsApp" class="whatsapp-button"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+</button>
   </template>
   
   <script>
@@ -36,10 +37,10 @@
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	background-color: green;
-	color: white;
 	padding: 10px 20px;
+	font-size: 50px;
 	border: none;
+	color: green;
   }
   </style>
   

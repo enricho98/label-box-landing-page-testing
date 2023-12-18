@@ -1,40 +1,40 @@
 <template>
 	<div class="container mt-5 mb-4">
-		<h5 class="text-center">MENGAPA PACKAGING PENTING?</h5>
+		<h5 class="text-center titlePack">MENGAPA PACKAGING PENTING?</h5>
 		<div class="row justify-content-center align-items-center">
-			<div class="col-md-6 mb-4">
-				<div class="card custom-card relative text-center">
-					<h6>Sebagai Pelindung Produk</h6>
-					<p class="customp">Packaging berfungsi untuk menjaga kualitas, bentuk, dan rasa makanan dari kerusakan pada saat disimpan, dikirim, maupun dikonsumsi.</p>
+			<div class="col-md-5 mb-4">
+				<div class="cards custom-card-pack relative text-center">
+					<h6 class="title-pack">Sebagai Pelindung Produk</h6>
+					<p class="custompack">Packaging berfungsi untuk menjaga kualitas, bentuk, dan rasa makanan dari kerusakan pada saat disimpan, dikirim, maupun dikonsumsi.</p>
 				</div>
 			</div>
-			<div class="col-md-6 mb-4">
-				<div class="card custom-card relative text-center">
-					<h6>Meningkatkan Brand Awareness</h6>
-					<p class="customp">Packaging dapat digunakan sebagai sarana pemasaran bisnis kuliner sehingga brand Anda selalu diingat oleh konsumen.</p>
+			<div class="col-md-5 mb-4">
+				<div class="cards custom-card-pack relative text-center">
+					<h6 class="title-pack">Meningkatkan Brand Awareness</h6>
+					<p class="custompack">Packaging dapat digunakan sebagai sarana pemasaran bisnis kuliner sehingga brand Anda selalu diingat oleh konsumen.</p>
 				</div>
 			</div>
 		</div>
 		<div class="row justify-content-center align-items-center">
-			<div class="col-md-6 mb-4">
-				<div class="card custom-card relative text-center">
-					<h6>Meningkatkan Value Produk</h6>
-					<p class="customp">Packaging dapat membuat produk yang simpel terlihat lebih menarik dan unik, sehingga dapat menaikkan nilai dari produk tersebut.</p>
+			<div class="col-md-5 mb-4">
+				<div class="cards custom-card-pack relative text-center">
+					<h6 class="title-pack">Meningkatkan Value Produk</h6>
+					<p class="custompack">Packaging dapat membuat produk yang simpel terlihat lebih menarik dan unik, sehingga dapat menaikkan nilai dari produk tersebut.</p>
 				</div>
 			</div>
-			<div class="col-md-6 mb-4">
-				<div class="card custom-card relative text-center">
-					<h6>Pembeda dari Kompetitor</h6>
-					<p class="customp">Packaging dapat memudahkan Konsumen untuk mengidentifikasikan dan membedakan produk Anda dari kompetitor.</p>
+			<div class="col-md-5 mb-4">
+				<div class="cards custom-card-pack relative text-center">
+					<h6 class="title-pack">Pembeda dari Kompetitor</h6>
+					<p class="custompack">Packaging dapat memudahkan Konsumen untuk mengidentifikasikan dan membedakan produk Anda dari kompetitor.</p>
 				</div>
 
 			</div>
 		</div>
 		<div class="row justify-content-center align-items-center">
-			<div class="col-md-6">
-				<div class="card custom-card relative text-center">
-					<h6>Meningkatkan Omset Penjualan</h6>
-					<p class="customp">Packaging yang menarik dan unik memiliki daya tarik sendiri untuk konsumen, sehingga dapat meningkatkan penjualan Anda.</p>
+			<div class="col-md-5">
+				<div class="cards custom-card-pack relative text-center">
+					<h6 class="title-pack">Meningkatkan Omset Penjualan</h6>
+					<p class="custompack">Packaging yang menarik dan unik memiliki daya tarik sendiri untuk konsumen, sehingga dapat meningkatkan penjualan Anda.</p>
 				</div>
 
 			</div>
@@ -42,42 +42,44 @@
 		
 	</div>
 </template>
-
-<!-- <style scoped>
-.custom-card {
-	background-color: #eeeeee;
-	position: relative;
-	padding-left: 10px;
-	/* Adjust as needed for the spacing between the line and content */
-	border-radius: 20px;
+<style>
+.titlePack{
+	color: #1d4486;
+	font-weight: 900;
+	padding-bottom: 50px;
+	font-size: 25px ;
 }
 
-.text-sm {
-	font-size: 0.775rem;
+.custom-card-pack{
+	border-radius: 35px !important;
+	border-color: #1d4486 !important;
+	border-width: 3px !important;
+	border-style: solid !important;
+}	
+
+.title-pack{
+	font-size: 18px;
+	font-weight: 900;
+	color: #1d4486;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.custompack{
+	text-align: justify;
+	line-height: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
-.text-primary {
-	color: #204280 !important;
+@media screen and (max-width: 767px) {
+  /* Adjustments for smaller screens */
+  .custompack {
+    text-align: left; /* Change to left-align on smaller screens */
+    padding-left: 10px; /* Adjust left padding */
+    padding-right: 10px; /* Adjust right padding */
+  }
 }
-
-.vertical-line {
-	border-left: 7px solid #204280;
-	height: 80%;
-	left: 0;
-	position: absolute;
-	top: 10%;
-	border-radius: 40px;
-}
-
-.custom-card {
-	background-color: #eeeeee;
-	/* Adjust the background color as needed */
-	position: relative;
-	padding-left: 3%;
-	padding-top: 3%;
-	border-radius: 20px;
-}
-</style> -->
+</style>
 <script>
 export default {
 	methods: {

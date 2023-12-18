@@ -2,9 +2,11 @@
 	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
 		<div class="container">
 			<div class="mb-4">
-				<h5 class="text-center whyUs m-0">WHY US?</h5>
+				<h5 class="text-center whyUs m-0">KENAPA HARUS MEMILIH LABELBOX?</h5>
 			</div>
-
+			<div class="hr-container">
+  <hr class="hrsize">
+</div>
 			<div class="d-flex flex-column flex-md-row flex-wrap">
 				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/whyus_bg.png" alt="Imagem de Cleverson Marques" />
 
@@ -22,8 +24,20 @@
 </template>
 
 <style>
+.hr-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hrsize {
+  width: 60%;
+  border: none;
+  background-color:#adb9d0  !important;/* Set the background color if needed */
+  height: 1.5px; /* Adjust the height as needed */
+}
 .whyUs {
 	color: white !important;
+	font-weight: 900;
 }
 .bg-custom-blues-one {
 	background-color: #204280 !important;

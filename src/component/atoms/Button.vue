@@ -19,7 +19,7 @@ export default {
 		},
 		text: {
 			type: String,
-			default: "Hubungi Kami",
+			default: "HUBUNGI KAMI",
 		},
 		variant: {
 			type: String,
@@ -50,17 +50,22 @@ export default {
 };
 </script>
 <style>
-
 .btn-gold-cta {
-	color: #ffffff !important;
-	border-color: #204280 !important;
-	background-color: #204280 !important;
+  color: #ffffff !important;
+  border-color: #204280 !important;
+  background-color: #204280 !important;
+  padding-top: 0rem !important; /* Adjust the padding as needed */
+  padding-bottom: 0rem !important;
+  font-size: 15px !important; /* Adjust the padding as needed */
 }
-.btn{
-	color: #ffffff !important;
-	border-color: #204280 !important;
-	background-color: #204280 !important;
-	font-size: 2rem;
+
+.btn {
+  color: #ffffff !important;
+  border-color: #204280 !important;
+  background-color: #204280 !important;
+  font-size: 2rem;
+  padding-top: 0.5rem; /* Adjust the padding as needed */
+  padding-bottom: 0.5rem; /* Adjust the padding as needed */
 }
 </style>
 

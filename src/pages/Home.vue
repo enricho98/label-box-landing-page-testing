@@ -45,6 +45,7 @@ export default {
             duration: 3000,
             easing: "ease-in-out",
             viewFactor: 0.5,
+            reset:true        
         });
     },
 };

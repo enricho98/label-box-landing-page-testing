@@ -1,13 +1,13 @@
 <template>
-	<header class="grid grid-cols-12 items-start justify-start">
+	<header class="grid grid-cols-12 items-start justify-start float-up">
 		<div class="h-full col-span-12 md:col-span-7 flex flex-col justify-start flex-container">
 			<img class="logo w-1/4 md:w-1/6 ml-3 mt-3" src="/logo.png" alt="Your Logo" />
 
 			<div class="p-6 md:pr-3 md:max-w-[560px] lg:max-w-[770px] flex items-start m-auto">
 				<div class="logo-text ml-4">
-					<h1 class="fw-bold custom text-2xl md:text-3xl">Specialist F&B Packing</h1>
+					<h1 class="fw-bold customText text-4xl md:text-5xl">Specialist F&B Packing</h1>
 					<p class="text-xs customp md:text-base">
-						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik
+						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik !
 					</p>
 					<Button class="ml-2" size="lg"
 						href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging." />
@@ -27,22 +27,55 @@
 import Button from "Atom/Button.vue";
 
 export default {
-	components: {
-		Button,
-	},
+  components: {
+    Button,
+  },
+  mounted() {
+    // Initialize ScrollReveal when the component is mounted
+    ScrollReveal().reveal(".float-up", {
+      duration: 3000,
+      easing: "ease-in-out",
+      viewFactor: 0.5,
+    });
+
+    // Add an event listener for the scroll event to manually reset ScrollReveal
+    window.addEventListener("scroll", this.resetScrollReveal);
+  },
+  beforeDestroy() {
+    // Remove the event listener when the component is destroyed to avoid memory leaks
+    window.removeEventListener("scroll", this.resetScrollReveal);
+  },
+  methods: {
+    resetScrollReveal() {
+      // Manually reset ScrollReveal on scroll
+      ScrollReveal().reveal(".float-up", {
+        duration: 3000,
+        easing: "ease-in-out",
+        viewFactor: 0.5,
+        reset: true,
+      });
+    },
+  },
 };
-</script><style lang="scss" scoped>
+</script>
+
+<style lang="scss" scoped>
 .flex-container {
   background-color: #eeeeee; /* Add your desired background color */
 }
 .customp{
 	font-size: larger;
+	line-height: 25px;
+	padding-right: 100px !important;
 }
 .logo {
   max-width: 80% !important;
   /* Make the logo responsive */
 }
 
+.customText{
+	font-size: 45px !important;
+}
 @media (min-width: 768px) {
   .logo {
 	max-width: 8%;
@@ -51,7 +84,7 @@ export default {
 }
 
 .logo-text {
-  margin-left: 20px;
+  margin-left: 50px !important;
   /* Adjust the margin as needed for spacing between the logo and text */
   position: relative;
   
@@ -61,16 +94,17 @@ export default {
 h1 {
   margin-left: 1rem;
   color: #1d4486;
-  font-size: 2rem; /* Adjust the font size */
+  font-size: 2rem;
   line-height: 50px;
-  margin-top: auto; /* Set margin-top to auto to push it to the bottom */}
+  margin-top: auto; 
+}
 
-/* Adjust the font size of the p */
 p {
   margin-left: 1rem;
   position: relative;
-  margin-top: auto; /* Set margin-top to auto to push it to the bottom */  margin-bottom: 1rem; /* Adjust the bottom margin */
-  font-size: 1rem; /* Adjust the font size */
+  margin-top: auto;
+ 	margin-bottom: 1rem; /* Adjust the bottom margin */
+  font-size: 1rem;
   top: 0.5rem;
   /* Adjust the vertical position */
   line-height: 40px;
@@ -82,17 +116,20 @@ Button {
   margin-left: 1rem; /* Adjust the left margin */
   position: relative;
   top: 0.5rem; /* Adjust the vertical position */
-  font-size: 1rem; /* Adjust the font size */
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
   .logo-text {
 	margin-left: 0;
-	/* Reset margin for larger screens */
 	align-self: flex-start;
-	/* Align the text and button to the start of the flex container */
 	top: 0;
-	/* Reset the top position for larger screens */
   }
+  .customp{
+	font-size: larger;
+	line-height: 25px;
+}
 }
 </style>
+
+  
