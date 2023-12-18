@@ -114,6 +114,20 @@ export default defineComponent({
 	color: white;
 }
 
+.carousel {
+	position: relative;
+}
+
+.carousel__prev {
+	position: absolute;
+	left: -45px;
+}
+
+.carousel__next {
+	position: absolute;
+	right: -45px;
+}
+
 .carousel__icon {
 	color: #15335e;
 	transform: scale(2);
