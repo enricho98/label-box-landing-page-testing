@@ -1,31 +1,42 @@
 <template>
-	<div class="float-up">
-		<h5 class="text-center mt-4 whtats">PRODUK KAMI</h5>
-		<div class="container">
-			<Carousel :items-to-show="getItemsToShow()" :wrap-around="true" :breakpoints="breakpoints" snap-align="start"
-				class="mt-5">
-				<Slide v-for="slide in slides" :key="slide.id">
-					<div class="h-full flex flex-col mx-2">
-						<img :src="slide.image" alt="Slide Image" class="flex-1 w-full h-auto z-10 rounded-t-md" />
-						<div class="mx-1-mt-2 thisAreas rounded-b-xl pt-2 pb-2 text-base text-white font-bold">
-							<h3 class="slideTitle">{{ slide.title }}</h3>
-						</div>
-						<div class="mx-1 -mt-2 thisText rounded-b-xl pt-2 pb-2 text-base text-white font-bold">
-							<h6>{{ slide.text }}</h6>
-						</div>
-					</div>
-				</Slide>
-
-				<template #addons>
-					<Navigation />
-				</template>
-			</Carousel>
-		</div>
-	</div>
-</template>
+	<section class="float-up-produk">
+	  <h5 class="text-center mt-4 whtats">PRODUK KAMI</h5>
+	  <div class="container">
+		<Carousel
+		  :items-to-show="getItemsToShow()"
+		  :wrap-around="true"
+		  :breakpoints="breakpoints"
+		  snap-align="start"
+		  class="mt-5"
+		>
+		  <Slide v-for="slide in slides" :key="slide.id">
+			<div class="h-full flex flex-col mx-2">
+			  <img
+				:src="slide.image"
+				alt="Slide Image"
+				class="flex-1 w-full h-auto z-10 rounded-t-md"
+			  />
+			  <div class="mx-1-mt-2 thisAreas rounded-b-xl pt-2 pb-2 text-base text-white font-bold">
+				<h3 class="slideTitle">{{ slide.title }}</h3>
+			  </div>
+			  <div class="mx-1 -mt-2 thisText rounded-b-xl pt-2 pb-2 text-base text-white font-bold">
+				<h6>{{ slide.text }}</h6>
+			  </div>
+			</div>
+		  </Slide>
+  
+		  <template #addons>
+			<Navigation />
+		  </template>
+		</Carousel>
+	  </div>
+	</section>
+  </template>
+  
 <script>
 import { defineComponent } from "vue";
 import { Carousel, Navigation, Slide } from "vue3-carousel";
+import ScrollReveal from "scrollreveal";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -103,6 +114,15 @@ export default defineComponent({
 			return window.innerWidth <= 767 ? 1 : 4;
 		},
 	},
+	mounted() {
+    // Initialize ScrollReveal when the component is mounted
+    ScrollReveal().reveal(".float-up-produk", {
+      duration: 1000,
+      easing: "ease-in-out",
+      viewFactor: 0.5,
+      reset: true,
+    });
+  },
 });
 </script>
 

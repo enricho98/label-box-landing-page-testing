@@ -1,6 +1,6 @@
 <template>
 	<!-- remove margin when enabling lawyers section -->
-	<section class="container mt-5 ">
+	<section class="container mt-5">
     <h5 class="text-center whtatss mb-4">YANG TERBARU DARI LABELBOX</h5>
 		<div class="position-relative mb-5">
 			<div class='sk-instagram-feed' data-embed-id='239357'></div>
@@ -10,8 +10,7 @@
 <script>
 import ScrollReveal from "scrollreveal";
 
-  
-  export default {
+export default {
   mounted() {
     // The script will be loaded when the component is mounted
     const script = document.createElement('script');
@@ -22,10 +21,17 @@ import ScrollReveal from "scrollreveal";
     // Append the script to the body
     document.body.appendChild(script);
 
+    // Initialize ScrollReveal when the component is mounted
+    ScrollReveal().reveal(".float-instagram", {
+      duration: 1000,
+      easing: "ease-in-out",
+      viewFactor: 0.5,
+      reset: true,
+    });
   },
 };
-
 </script>
+
 
 <style>
 .whtatss{

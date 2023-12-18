@@ -1,5 +1,5 @@
 <template>
-	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5 float-up">
+	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5 float-up-areas">
 		<div class="container">
 			<div class="mb-4">
 				<h5 class="text-center whyUs m-0">KENAPA HARUS MEMILIH LABELBOX?</h5>
@@ -48,15 +48,27 @@
 }
 </style>
 <script>
+import ScrollReveal from "scrollreveal";
+
 export default {
-	methods: {
-		redirectToWhatsApp() {
-			// Add your WhatsApp URL here
-			const whatsappUrl =
-				'https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging.';
-			// Open the URL in a new tab or window
-			window.open(whatsappUrl, '_blank');
-		},
-	},
+  methods: {
+    redirectToWhatsApp() {
+      // Add your WhatsApp URL here
+      const whatsappUrl =
+        "https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging.";
+      // Open the URL in a new tab or window
+      window.open(whatsappUrl, "_blank");
+    },
+  },
+  mounted() {
+    // Initialize ScrollReveal when the component is mounted
+    ScrollReveal().reveal(".float-up-areas", {
+      duration: 1000,
+      easing: "ease-in-out",
+      viewFactor: 0.5,
+      reset: true,
+    });
+  },
 };
 </script>
+

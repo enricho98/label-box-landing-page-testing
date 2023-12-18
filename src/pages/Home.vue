@@ -44,7 +44,7 @@ export default {
         ScrollReveal().reveal(".float-up", {
             duration: 1000,
             easing: "ease-in-out",
-            // viewFactor: 0.5,
+            viewFactor: 0.5,
             reset:true        
         });
     },

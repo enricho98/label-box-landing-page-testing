@@ -1,5 +1,5 @@
 <template>
-	<div class="container mt-4 mb-4 float-up">
+	<section class="container mt-4 mb-4 float-up-card-big">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-8">
 				<!-- Vue component for the card with a vertical line on the left -->
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <style scoped>
@@ -61,6 +61,8 @@
 }
 </style>
 <script>
+import ScrollReveal from "scrollreveal";
+
 export default {
 	methods: {
 		redirectToWhatsApp() {
@@ -71,5 +73,14 @@ export default {
 			window.open(whatsappUrl, '_blank');
 		},
 	},
+	mounted() {
+    // Initialize ScrollReveal when the component is mounted
+    ScrollReveal().reveal(".float-up-card-big", {
+      duration: 1000,
+      easing: "ease-in-out",
+      viewFactor: 0.5,
+      reset: true,
+    });
+  },
 };
 </script>
