@@ -40,7 +40,7 @@
 	padding: 10px 20px;
 	font-size: 50px;
 	border: none;
-	color: green;
+	color: #25d366;
   }
   </style>
   

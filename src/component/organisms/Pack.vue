@@ -1,5 +1,5 @@
 <template>
-	<div class="container mt-5 mb-4">
+	<div class="container mt-5 mb-4 float-up">
 		<h5 class="text-center titlePack">MENGAPA PACKAGING PENTING?</h5>
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-5 mb-4">

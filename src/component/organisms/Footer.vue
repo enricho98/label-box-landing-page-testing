@@ -1,5 +1,5 @@
 <template>
-	<footer class=" mb-4">
+	<footer>
 		<div id="footer" class="container d-flex flex-column">
 			<div class="border-top-grey text-left py-2">
 				<div class="container mt-5">
@@ -8,14 +8,14 @@
 							<div class="footer-left">
 								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
 								<div>
-									<h6 class="pt-2">Specialist F&B Packaging</h6>
-									<p>Your #1 Trusted Packaging Partner.</p>
+									<p class="mt-1">Specialist F&B Packaging <br>Your #1 Trusted Packaging Partner.</p>
 								</div>
 							</div>
+
 						</div>
 						<!-- WhatsApp and Instagram Icons -->
-						<div class="col-md-6 position-relative mt-2">
-							<div class="text-end position-absolute bottom-0 end-0">
+						<div class="col-md-6 position-relative ">
+							<div class="text-end position-absolute bottom-10 end-0">
 								<a href="https://www.instagram.com/labelbox.id/?hl=en" class="">
 									<i class="fa-brands fa-instagram text-primary fs-1 ms-3 instagram-icon bigger-icon"></i>
 								</a>
@@ -40,7 +40,7 @@
 }
 
 .footer-logo {
-	max-width: 100px;
+	max-width: 150px;
 	/* Adjust the size as needed */
 }
 

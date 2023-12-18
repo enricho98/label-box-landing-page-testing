@@ -1,8 +1,8 @@
 <template>
-	<section id="areas" class="bg-custom-blues mt-5 mb-5 py-5">
+	<section id="areas" class="bg-custom-blues mt-1 mb-5 py-5 float-up">
 	  <div class="container">
 		<div class="mb-4">
-		  <h5 class="text-center m-0">HOW TO ORDER</h5>
+		  <h5 class="text-center m-0 mudah">MUDAHNYA PESAN DI LABELBOX</h5>
 		</div>
   
 		<div class="d-flex flex-column flex-md-row flex-wrap">
@@ -20,7 +20,7 @@
 		  />
 		</div>
   
-		<div class="mb-4 mt-2 text-center">
+		<div class="mb-2 mt-2 text-center">
 		  <button @click="redirectToWhatsApp" type="button" class="btn btn-primary rounded-pill text-center custome-kami">
 			PESAN SEKARANG
 		  </button>
@@ -67,9 +67,16 @@
   }
   
   .custome-kami {
-	font-size: 1rem;
+	font-size: 0.8rem !important;
 	background-color: #204280 !important;
 	color: white !important;
+	padding-top: 0.1rem !important; 
+  padding-bottom: 0.1rem !important;
+  font-weight: 900 !important;
+  }
+  .mudah{
+	font-weight: 900;
+	font-size: 23px;
   }
   </style>
   

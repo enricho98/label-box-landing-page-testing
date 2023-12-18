@@ -25,37 +25,13 @@
   
 <script>
 import Button from "Atom/Button.vue";
+import ScrollReveal from "scrollreveal";
 
 export default {
   components: {
     Button,
-  },
-  mounted() {
-    // Initialize ScrollReveal when the component is mounted
-    ScrollReveal().reveal(".float-up", {
-      duration: 3000,
-      easing: "ease-in-out",
-      viewFactor: 0.5,
-    });
+  }
 
-    // Add an event listener for the scroll event to manually reset ScrollReveal
-    window.addEventListener("scroll", this.resetScrollReveal);
-  },
-  beforeDestroy() {
-    // Remove the event listener when the component is destroyed to avoid memory leaks
-    window.removeEventListener("scroll", this.resetScrollReveal);
-  },
-  methods: {
-    resetScrollReveal() {
-      // Manually reset ScrollReveal on scroll
-      ScrollReveal().reveal(".float-up", {
-        duration: 3000,
-        easing: "ease-in-out",
-        viewFactor: 0.5,
-        reset: true,
-      });
-    },
-  },
 };
 </script>
 

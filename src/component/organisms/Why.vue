@@ -1,14 +1,14 @@
 <template>
-	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
+	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5 float-up">
 		<div class="container">
 			<div class="mb-4">
 				<h5 class="text-center whyUs m-0">KENAPA HARUS MEMILIH LABELBOX?</h5>
+				<p class="text-center whyP mt-5">
+					LABELBOX PACKAGING ADALAH PERCETAKAN KEMASAN KHUSUS UNTUK <br> MAKANAN & MINUMAN TERLENGKAP DAN TERPERCAYA DI INDONESIA. 
+				</p>
 			</div>
-			<div class="hr-container">
-  <hr class="hrsize">
-</div>
 			<div class="d-flex flex-column flex-md-row flex-wrap">
-				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/whyus_bg.png" alt="Imagem de Cleverson Marques" />
+				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/kb-01.png" alt="Imagem de Cleverson Marques" />
 
 			</div>
 			<div class="mb-4 mt-2 text-center">
@@ -24,16 +24,9 @@
 </template>
 
 <style>
-.hr-container {
-  display: flex;
-  justify-content: center;
-}
-
-.hrsize {
-  width: 60%;
-  border: none;
-  background-color:#adb9d0  !important;/* Set the background color if needed */
-  height: 1.5px; /* Adjust the height as needed */
+.whyP{
+	font-size: 20px ;
+	text-align: justify;
 }
 .whyUs {
 	color: white !important;
@@ -48,6 +41,10 @@
 	font-size: 1rem;
 	background-color: white !important;
 	color: #204280 !important;
+	font-weight: 900 !important;
+	padding-top: 0.1rem !important; /* Adjust the padding as needed */
+  	padding-bottom: 0.1rem !important; 
+
 }
 </style>
 <script>

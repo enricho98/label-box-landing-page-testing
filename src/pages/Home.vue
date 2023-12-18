@@ -1,13 +1,13 @@
 <template>
     <div>
-        <HeaderHome class="float-up" />
-        <Pack class="float-up" />
-        <Areas class="float-up" />
-        <Instagram class="float-up" />
-        <Card class="float-up" />
-        <Why class="float-up" />
-        <CardBig class="float-up" />
-        <How class="float-up" />
+        <HeaderHome />
+        <Pack />
+        <Why />
+        <Areas />
+        <How />
+        <CardBig />
+        <Instagram />
+        <!-- <Card class="float-up" /> -->
 
         <WhatsAppButton />
     </div>
@@ -17,7 +17,7 @@
 import HeaderHome from "Organism/HeaderHome.vue";
 import About from "Organism/About.vue";
 import Areas from "Organism/Areas.vue";
-import Card from "Organism/Card.vue";
+// import Card from "Organism/Card.vue";
 import CardBig from "Organism/CardBig.vue";
 import Why from "Organism/Why.vue";
 import Instagram from "Organism/Instagram.vue";
@@ -31,7 +31,7 @@ export default {
         HeaderHome,
         About,
         Areas,
-        Card,
+        // Card,
         CardBig,
         Instagram,
         Why,
@@ -42,9 +42,9 @@ export default {
     mounted() {
         // Initialize ScrollReveal when the component is mounted
         ScrollReveal().reveal(".float-up", {
-            duration: 3000,
+            duration: 1000,
             easing: "ease-in-out",
-            viewFactor: 0.5,
+            // viewFactor: 0.5,
             reset:true        
         });
     },

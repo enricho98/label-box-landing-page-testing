@@ -6,7 +6,6 @@
 <script>
 import { Collapse } from "bootstrap/dist/js/bootstrap.esm.min.js";
 import Footer from "Organism/Footer";
-import 'aos/dist/aos.css'
 
 export default {
 	components: {
@@ -14,7 +13,6 @@ export default {
 	},
 	mounted() {
 		Array.from(document.querySelectorAll("accordionPanelsStayOpenExample")).forEach(coll => new Collapse(coll));
-		AOS.init()
 	},
 };
 </script>
