@@ -8,7 +8,6 @@ import "@vueup/vue-quill/dist/vue-quill.snow.css";
 import "@vueup/vue-quill/dist/vue-quill.bubble.css";
 import "./assets/styles/main";
 import './assets/styles/global.css';
-import 'aos/dist/aos.css'
 // Global components
 import { QuillEditor } from "@vueup/vue-quill";
 import Notifications from "@kyvg/vue3-notification";
