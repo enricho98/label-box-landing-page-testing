@@ -9,7 +9,7 @@
 					<p class="text-xs customp md:text-base">
 						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik !
 					</p>
-					<Button class="ml-2" size="lg"
+					<Button class="ml-2" size="lg" target="_blank"
 						href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging." />
 				</div>
 			</div>
