@@ -1,5 +1,5 @@
 <template>
-	<section class="container mt-4 mb-4 float-up-card-big">
+	<section class="container mt-4 mb-4">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-8">
 				<!-- Vue component for the card with a vertical line on the left -->

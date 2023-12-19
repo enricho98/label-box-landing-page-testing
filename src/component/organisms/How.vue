@@ -1,5 +1,5 @@
 <template>
-	<section id="areas" class="bg-custom-blues mt-1 mb-5 py-5 float-up">
+	<section id="areas" class="bg-custom-blues mt-1 mb-5 py-5">
 	  <div class="container">
 		<div class="mb-4">
 		  <h5 class="text-center m-0 mudah">MUDAHNYA PESAN DI LABELBOX</h5>

@@ -1,10 +1,10 @@
 <template>
-	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5 float-up-areas">
+	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
 		<div class="container">
 			<div class="mb-4">
 				<h5 class="text-center whyUs m-0">KENAPA HARUS MEMILIH LABELBOX?</h5>
 				<p class="text-center whyP mt-5">
-					LABELBOX PACKAGING ADALAH PERCETAKAN KEMASAN KHUSUS UNTUK <br> MAKANAN & MINUMAN TERLENGKAP DAN TERPERCAYA DI INDONESIA. 
+					LABELBOX PACKAGING ADALAH PERCETAKAN KEMASAN KHUSUS UNTUK <br c> MAKANAN & MINUMAN TERLENGKAP DAN TERPERCAYA DI INDONESIA. 
 				</p>
 			</div>
 			<div class="d-flex flex-column flex-md-row flex-wrap">

@@ -1,5 +1,5 @@
 <template>
-	<div class="container mt-5 mb-4 float-up">
+	<div class="container mt-5 mb-4">
 		<h5 class="text-center titlePack">MENGAPA PACKAGING PENTING?</h5>
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-5 mb-4">
@@ -74,7 +74,7 @@
 @media screen and (max-width: 767px) {
   /* Adjustments for smaller screens */
   .custompack {
-    text-align: left; /* Change to left-align on smaller screens */
+    text-align: center; /* Change to left-align on smaller screens */
     padding-left: 10px; /* Adjust left padding */
     padding-right: 10px; /* Adjust right padding */
   }

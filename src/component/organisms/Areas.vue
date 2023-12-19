@@ -1,5 +1,5 @@
 <template>
-	<section class="float-up-produk">
+	<section  style="overflow-x: hidden;"> 
 	  <h5 class="text-center mt-4 whtats">PRODUK KAMI</h5>
 	  <div class="container">
 		<Carousel

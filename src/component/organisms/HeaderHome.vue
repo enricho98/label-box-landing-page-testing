@@ -1,5 +1,5 @@
 <template>
-	<header class="grid grid-cols-12 items-start justify-start float-up">
+	<header class="grid grid-cols-12 items-start justify-start">
 		<div class="h-full col-span-12 md:col-span-7 flex flex-col justify-start flex-container">
 			<img class="logo w-1/4 md:w-1/6 ml-3 mt-3" src="/logo.png" alt="Your Logo" />
 
@@ -105,6 +105,18 @@ Button {
 	font-size: larger;
 	line-height: 25px;
 }
+}
+@media screen and (max-width: 767px) {
+  /* Adjustments for smaller screens */
+  .logo-text {
+	text-align: center;
+	margin: 0% !important;
+	padding: 0% !important;
+	// text-align: center !important;
+  }
+  .customp{
+	padding: 0% !important;
+  }
 }
 </style>
 
