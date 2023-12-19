@@ -8,7 +8,7 @@
 							<div class="footer-left">
 								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
 								<div>
-									<p class="mt-1">Specialist F&B Packaging <br>Your #1 Trusted Packaging Partner.</p>
+									<p class="mt-1 footerSmall">Specialist F&B Packaging <br>Your #1 Trusted Packaging Partner.</p>
 								</div>
 							</div>
 
@@ -49,6 +49,11 @@
 }
 .whatsapp-icon {
 	font-size: 2rem !important;
+}
+@media (max-width: 768px) {
+	.footerSmall{
+		margin-right: 100px;
+	}
 }
 
 /* Add other styles as needed */</style>
