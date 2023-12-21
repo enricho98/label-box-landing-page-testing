@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+	<!-- Google Tag Manager -->
 	<script>(function (w, d, s, l, i) {
 			w[l] = w[l] || []; w[l].push({
 				'gtm.start':
@@ -15,27 +16,17 @@
 	<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Labelbox</title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" crossorigin="anonymous" />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-		rel="stylesheet">
-	<!-- <meta
-			property="og:url"
-			content="https://cleversonmarques.com.br"
-		/> -->
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Labelbox" />
-	<meta property="og:description" content="Labelbox" />
-	<meta property="og:image" content="/logo.png" />
-</head>
+	<frameset rows="100%,*">
+		<frame src="https://main--beamish-torrone-d28da1.netlify.app/">
+			<noframes>
 
 <body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDDXB83H" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<div id="app"></div>
-	<script type="module" src="/src/main.js"></script>
-	<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 </body>
+</noframes>
+</frameset>
 
 </html>
