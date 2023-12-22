@@ -22,7 +22,7 @@
 
 								<a href="https://mauorder.online/labelbox-ggl"
 									class=""><i class="fa-brands fa-whatsapp whatsapp-icon text-primary fs-1 ms-3"></i></a>
-									https://mauorder.online/labelbox-ggl/
+									
 							</div>
 						</div>
 					</div>
