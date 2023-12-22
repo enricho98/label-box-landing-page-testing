@@ -20,9 +20,9 @@
 									<i class="fa-brands fa-instagram text-primary fs-1 ms-3 instagram-icon bigger-icon"></i>
 								</a>
 
-								<a href="https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging"
+								<a href="https://mauorder.online/labelbox-ggl"
 									class=""><i class="fa-brands fa-whatsapp whatsapp-icon text-primary fs-1 ms-3"></i></a>
-
+									https://mauorder.online/labelbox-ggl/
 							</div>
 						</div>
 					</div>

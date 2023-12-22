@@ -68,7 +68,7 @@ export default {
 		redirectToWhatsApp() {
 			// Add your WhatsApp URL here
 			const whatsappUrl =
-				'https://api.whatsapp.com/send?phone=6285935000130&text=Halo%20Minbox!%20Saya%20mau%20tanya%20mengenai%20Packaging.';
+				'https://mauorder.online/labelbox-ggl.';
 			// Open the URL in a new tab or window
 			window.open(whatsappUrl, '_blank');
 		},
