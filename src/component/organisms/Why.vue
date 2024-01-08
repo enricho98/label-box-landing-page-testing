@@ -55,7 +55,7 @@ export default {
     redirectToWhatsApp() {
       // Add your WhatsApp URL here
       const whatsappUrl =
-        "https://mauorder.online/labelbox-ggl";
+        "https://mauorder.online/labelbox-ggl-discovery";
       // Open the URL in a new tab or window
       window.open(whatsappUrl, "_blank");
     },

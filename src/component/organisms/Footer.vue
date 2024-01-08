@@ -20,7 +20,7 @@
 									<i class="fa-brands fa-instagram text-primary fs-1 ms-3 instagram-icon bigger-icon"></i>
 								</a>
 
-								<a href="https://mauorder.online/labelbox-ggl"
+								<a href="https://mauorder.online/labelbox-ggl-discovery"
 									class=""><i class="fa-brands fa-whatsapp whatsapp-icon text-primary fs-1 ms-3"></i></a>
 									
 							</div>
