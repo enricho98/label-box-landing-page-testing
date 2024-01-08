@@ -53,7 +53,7 @@
 	  },
 	  redirectToWhatsApp() {
 		const whatsappUrl =
-		  'https://mauorder.online/labelbox-ggl';
+		  'https://mauorder.online/labelbox-ggl-search';
 		window.open(whatsappUrl, '_blank');
 	  },
 	},

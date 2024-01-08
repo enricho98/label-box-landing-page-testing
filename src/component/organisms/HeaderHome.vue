@@ -10,7 +10,7 @@
 						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik !
 					</p>
 					<Button class="ml-2" size="lg" target="_blank"
-						href="https://mauorder.online/labelbox-ggl" />
+						href="https://mauorder.online/labelbox-ggl-search" />
 				</div>
 			</div>
 		</div>
