@@ -3,7 +3,7 @@
 	<section class="container mt-5">
     <h5 class="text-center whtatss mb-4">YANG TERBARU DARI LABELBOX</h5>
 		<div class="position-relative mb-5">
-			<div class='sk-instagram-feed' data-embed-id='25404601'></div>
+			<div class='sk-instagram-feed' data-embed-id=''></div>
 		</div>
 	</section>
 </template>
