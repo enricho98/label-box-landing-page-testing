@@ -5,24 +5,24 @@
 
 			<div class="p-6 md:pr-3 md:max-w-[560px] lg:max-w-[770px] flex items-start m-auto">
 				<div class="logo-text ml-4">
-					<h1 class="fw-bold customText text-4xl md:text-5xl">Specialist F&B Packing</h1>
+					<h1 class="fw-bold customText text-4xl md:text-5xl">Tittle Webiste</h1>
 					<p class="text-xs customp md:text-base">
-						Tingkatkan profit bisnis F&B anda dengan membuat kemasan yang menarik !
+						Description website Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magnam at ea neque natus. A, saepe quis. Quibusdam quidem sed exercitationem unde consectetur harum, possimus eum, atque aliquam rem adipisci!
 					</p>
 					<Button class="ml-2" size="lg" target="_blank"
-						href="https://mauorder.online/labelbox-ggl-discovery" />
+						href="https://www.instagram.com/sudopandame/" />
 				</div>
 			</div>
 		</div>
 		<div
 			class="h-full col-span-12 md:col-span-5 flex items-center justify-center py-5 px-3 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-800">
 			<div class="md:max-w-[400px] lg:max-w-[550px] mx-auto">
-				<img class="rounded-5 w-full md:w-auto" src="/header_image.png" alt="Imagem de Cleverson Marques" />
+				<img class="rounded-5 w-full md:w-auto" src="/happy_8379306.png" alt="Imagem de Cleverson Marques" />
 			</div>
 		</div>
 	</header>
 </template>
-  
+
 <script>
 import Button from "Atom/Button.vue";
 import ScrollReveal from "scrollreveal";
@@ -63,7 +63,7 @@ export default {
   margin-left: 50px !important;
   /* Adjust the margin as needed for spacing between the logo and text */
   position: relative;
-  
+
   /* Adjust the vertical position */
 }
 
@@ -72,7 +72,7 @@ h1 {
   color: #1d4486;
   font-size: 2rem;
   line-height: 50px;
-  margin-top: auto; 
+  margin-top: auto;
 }
 
 p {
@@ -120,4 +120,3 @@ Button {
 }
 </style>
 
-  

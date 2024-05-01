@@ -2,7 +2,7 @@
 	<button v-if="showButton" @click="redirectToWhatsApp" class="whatsapp-button"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
 </button>
   </template>
-  
+
   <script>
   export default {
 	data() {
@@ -14,7 +14,7 @@
 	  redirectToWhatsApp() {
 		// Add your WhatsApp URL here
 		const whatsappUrl =
-		  'https://mauorder.online/labelbox-ggl-discovery';
+		  'https://www.instagram.com/sudopandame/';
 		// Open the URL in a new tab or window
 		window.open(whatsappUrl, '_blank');
 	  },
@@ -31,7 +31,7 @@
 	},
   };
   </script>
-  
+
   <style scoped>
 .whatsapp-button {
 	z-index: 1;
@@ -56,4 +56,3 @@
   background-color: #204280;
 }
   </style>
-  

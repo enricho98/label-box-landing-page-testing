@@ -24,7 +24,7 @@
 
 <style scoped>
 .custom-card {
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	position: relative;
 	padding-left: 10px;
 	/* Adjust as needed for the spacing between the line and content */
@@ -49,7 +49,7 @@
 }
 
 .custom-card {
-	background-color: #eeeeee;
+	background-color: #000000;
 	/* Adjust the background color as needed */
 	position: relative;
 	padding-left: 3%;
@@ -63,7 +63,7 @@ export default {
 		redirectToWhatsApp() {
 			// Add your WhatsApp URL here
 			const whatsappUrl =
-				'https://mauorder.online/labelbox-ggl-discovery';
+				'https://www.instagram.com/sudopandame/';
 			// Open the URL in a new tab or window
 			window.open(whatsappUrl, '_blank');
 		},

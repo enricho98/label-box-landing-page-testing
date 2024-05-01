@@ -7,12 +7,12 @@
 					<div class="vertical-line absolute -translate-x-1"></div>
 					<div class="card-body rounded-pill text-center">
 						<button type="button" class="btn btn-primary rounded-0 text-sm mb-4 mt-3">
-							PENAWARAN TERBATAS
+							LIMITED OFFER
 						</button>
-						<h3 class="pesan-sekarang">Pesan Sekarang GRATIS Jasa Desain!</h3>
+						<h3 class="pesan-sekarang">what makes you store special!</h3>
 						<button @click="redirectToWhatsApp" type="button"
 							class="btn btn-success rounded-pill text-sm mb-4 mt-4">
-							KLAIM FREE DESIGN
+							Claim it now!
 						</button>
 					</div>
 				</div>
@@ -68,7 +68,7 @@ export default {
 		redirectToWhatsApp() {
 			// Add your WhatsApp URL here
 			const whatsappUrl =
-				'https://mauorder.online/labelbox-ggl-discovery';
+				'https://www.instagram.com/sudopandame/';
 			// Open the URL in a new tab or window
 			window.open(whatsappUrl, '_blank');
 		},

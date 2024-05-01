@@ -1,7 +1,7 @@
 <template>
 	<!-- remove margin when enabling lawyers section -->
 	<section class="container mt-5">
-    <h5 class="text-center whtatss mb-4">YANG TERBARU DARI LABELBOX</h5>
+    <h5 class="text-center whtatss mb-4">Connect to your instagram so get the new update</h5>
 		<div class="position-relative mb-5">
 			<div class='sk-instagram-feed' data-embed-id='25404601'></div>
 		</div>

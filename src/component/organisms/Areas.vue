@@ -1,6 +1,6 @@
 <template>
-	<section  style="overflow-x: hidden;"> 
-	  <h5 class="text-center mt-4 whtats">PRODUK KAMI</h5>
+	<section  style="overflow-x: hidden;">
+	  <h5 class="text-center mt-4 whtats">Our Products</h5>
 	  <div class="container">
 		<Carousel
 		  :items-to-show="getItemsToShow()"
@@ -24,7 +24,7 @@
 			  </div>
 			</div>
 		  </Slide>
-  
+
 		  <template #addons>
 			<Navigation />
 		  </template>
@@ -32,7 +32,7 @@
 	  </div>
 	</section>
   </template>
-  
+
 <script>
 import { defineComponent } from "vue";
 import { Carousel, Navigation, Slide } from "vue3-carousel";
@@ -52,40 +52,40 @@ export default defineComponent({
 			slides: [
 				{
 					id: 1,
-					image: "cup.png",
-					title: "Bowl",
-					text: "Min. Quantity 1.000pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 				{
 					id: 2,
-					image: "kardus.png",
-					title: "Box",
-					text: "Min. Quantity 500pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 				{
 					id: 3,
-					image: "Screenshot 2023-12-12 at 22.04.06.png",
-					title: "Paper",
-					text: "Min. Quantity 1.000pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 				{
 					id: 4,
-					image: "minum.png",
-					title: "Cup",
-					text: "Min. Quantity 500pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 				{
 					id: 4,
-					image: "bags.png",
-					title: "Shopping Bag",
-					text: "Min. Quantity 500pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 				{
 
 					id: 5,
-					image: "Screenshot 2023-12-19 at 02.01.25.png",
-					title: "Pouch Packaging",
-					text: "Min. Quantity 1.000pcs",
+					image: "panda-bear_12783443.png",
+					title: "Panda",
+					text: "Panda Number 1",
 				},
 
 			],

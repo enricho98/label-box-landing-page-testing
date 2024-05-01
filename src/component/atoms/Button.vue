@@ -19,7 +19,7 @@ export default {
 		},
 		text: {
 			type: String,
-			default: "HUBUNGI KAMI",
+			default: "Contact Me",
 		},
 		variant: {
 			type: String,

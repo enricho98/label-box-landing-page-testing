@@ -2,19 +2,19 @@
 	<section id="areas" class="bg-custom-blues-one mt-5 mb-5 py-5">
 		<div class="container">
 			<div class="mb-4">
-				<h5 class="text-center whyUs m-0">KENAPA HARUS MEMILIH LABELBOX?</h5>
+				<h5 class="text-center whyUs m-0">Why choosing our service?</h5>
 				<p class="text-center whyP mt-5">
-					LABELBOX PACKAGING ADALAH PERCETAKAN KEMASAN KHUSUS UNTUK <br c> MAKANAN & MINUMAN TERLENGKAP DAN TERPERCAYA DI INDONESIA. 
+					Reason choosing
 				</p>
 			</div>
 			<div class="d-flex flex-column flex-md-row flex-wrap">
-				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/kb-01.png" alt="Imagem de Cleverson Marques" />
+				<img class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/sudopanda.jpeg" alt="Imagem de Cleverson Marques" />
 
 			</div>
 			<div class="mb-4 mt-2 text-center">
 				<button @click="redirectToWhatsApp" type="button"
 					class="btn btn-primary rounded-pill text-center custome-us">
-					Hubungi Kami
+					Contact Me
 				</button>
 
 			</div>
@@ -43,7 +43,7 @@
 	color: #204280 !important;
 	font-weight: 900 !important;
 	padding-top: 0.1rem !important; /* Adjust the padding as needed */
-  	padding-bottom: 0.1rem !important; 
+  	padding-bottom: 0.1rem !important;
 
 }
 </style>
@@ -55,7 +55,7 @@ export default {
     redirectToWhatsApp() {
       // Add your WhatsApp URL here
       const whatsappUrl =
-        "https://mauorder.online/labelbox-ggl-discovery";
+        "https://www.instagram.com/sudopandame/";
       // Open the URL in a new tab or window
       window.open(whatsappUrl, "_blank");
     },

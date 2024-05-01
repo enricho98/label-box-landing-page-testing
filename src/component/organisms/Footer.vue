@@ -8,7 +8,7 @@
 							<div class="footer-left">
 								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
 								<div>
-									<p class="mt-1 footerSmall">Specialist F&B Packaging <br>Your #1 Trusted Packaging Partner.</p>
+									<p class="mt-1 footerSmall">Sudo<br>Panda</p>
 								</div>
 							</div>
 
@@ -16,13 +16,13 @@
 						<!-- WhatsApp and Instagram Icons -->
 						<div class="col-md-6 position-relative ">
 							<div class="text-end position-absolute bottom-10 end-0">
-								<a href="https://www.instagram.com/labelbox.id/?hl=en" class="">
+								<a href="https://www.instagram.com/sudopandame" class="">
 									<i class="fa-brands fa-instagram text-primary fs-1 ms-3 instagram-icon bigger-icon"></i>
 								</a>
 
-								<a href="https://mauorder.online/labelbox-ggl-discovery"
+								<a href="https://www.instagram.com/sudopandame/"
 									class=""><i class="fa-brands fa-whatsapp whatsapp-icon text-primary fs-1 ms-3"></i></a>
-									
+
 							</div>
 						</div>
 					</div>
@@ -31,8 +31,8 @@
 		</div>
 	</footer>
 </template>
-  
-  
+
+
 <style scoped>
 .border-top-grey {
 	border-top: 1px solid #ccc;
