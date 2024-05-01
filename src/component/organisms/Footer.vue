@@ -6,7 +6,7 @@
 					<div class="row">
 						<div class="col-md-6 mb-4">
 							<div class="footer-left">
-								<img src="/logo.png" alt="Logo" class="footer-logo img-fluid">
+								<img  alt="Logo" class="footer-logo img-fluid">
 								<div>
 									<p class="mt-1 footerSmall">Sudo<br>Panda</p>
 								</div>

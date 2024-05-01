@@ -6,7 +6,7 @@
             </div>
 
             <div class="d-flex flex-column flex-md-row flex-wrap">
-                <img v-if="isMobile" class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/Flowsa-03.png"
+                <img v-if="isMobile" class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/sudopanda.jpeg"
                     alt="Mobile Image" />
                 <img v-else class="mx-auto max-w-full xl:max-w-2xl rounded-5 mb-4" src="/sudopanda.jpeg" alt="Desktop Image" />
             </div>
